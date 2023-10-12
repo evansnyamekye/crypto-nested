@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { ArrowRightCircleIcon } from '@heroicons/react/24/outline';
 import { fetchCoins } from '../redux/crypto/cryptoSlice';
 
-export default function Example() {
+function Home() {
   const { cryptoData, isLoading } = useSelector((cryptos) => cryptos.crypto);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedFilter, setSelectedFilter] = useState('Name');
@@ -74,7 +74,7 @@ export default function Example() {
           <p className="font-bold text-lg">29.2K</p>
         </div>
       </div>
-      <div className="bg-brightBlueSupDark dark:bg-newDarkRed py-2 px-6 uppercase  font-bold">
+      <div className="bg-brightBlueSupDark dark:bg-newDarkRed py-2 px-6 uppercase  font-bold sticky top-16 z-20">
         <span>Stats By </span>
         <span>{selectedFilter}</span>
       </div>
@@ -95,8 +95,8 @@ export default function Example() {
                 <ArrowRightCircleIcon className="cursor-pointer place-self-end h-6 w-6" aria-hidden="true" />
               </Link>
               <img src={currency.iconUrl} alt={currency.name} className="w-16 py-3 mx-auto first:m-0" />
-              <p className="text-2xl font-bold">{currency.name}</p>
-              <p>{parseInt(millify(currency.price), 10)}</p>
+              <p className="w-6/12 text-center text-2xl font-bold">{currency.name}</p>
+              <p className="font-bold text-lg">{millify(currency.price)}</p>
             </div>
           ))}
         </div>
@@ -106,3 +106,5 @@ export default function Example() {
     </>
   );
 }
+
+export default Home;
