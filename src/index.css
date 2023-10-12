@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.coin:nth-child(4n+2),
+.coin:nth-child(4n+3) {
+  background-color: #3c62a3;
+}
