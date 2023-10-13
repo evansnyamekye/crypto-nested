@@ -1,160 +1,70 @@
+# Getting Started with Create React App
 
-<a name="readme-top"></a>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# 📗 Table of Contents
+## Available Scripts
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Install](#install)
-  - [Usage](#usage)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+In the project directory, you can run:
 
-<!-- PROJECT DESCRIPTION -->
+### `npm start`
 
-# 📖 Space Travelers<a name="about-project"></a>
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-**Crypto-nested' Crypto-nested is a web application that displays up-to-date market cap data for the top 10 cryptocurrencies. It provides an easy overview of the overall crypto market's performance.**
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 🛠 Built With <a name="built-with"></a>
+### `npm test`
 
-### Tech Stack <a name="tech-stack"></a>
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-> This project was built using the following technologies:
+### `npm run build`
 
-- React - Front-end framework
-- Tailwind CSS - Styling
-- CoinGecko API - Crypto price data
-- Jest
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-<!-- Features -->
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Key Features <a name="key-features"></a>
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- **Live prices and stats for all major cryptocurrencies**
-- **Responsive design for mobile and desktop**
-- **Search coin by name, rank or price**
+### `npm run eject`
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-<!-- Live Demo -->
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## 🚀 Live Demo <a name="live-demo"></a>
-<a href="https://crypto-nested-git-features-evansnyamekye.vercel.app/">Live🚀</a><br>
-<a href="https://www.loom.com/share/7aef673f1d6a41ca9b15b42c52b96283?sid=e85fa408-9084-447f-9432-b5ddaaa20fe3">Video Presentation🚀</a>
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-<!-- GETTING STARTED -->
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## 💻 Getting Started <a name="getting-started"></a>
+## Learn More
 
-> In order to start with this project do as follows:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To get get a local copy up and running, you can follow these simple steps:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
 
-### Install
-Clone the repository to your local machine using the following command:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-```sh
-  git clone https://github.com/evansnyamekye/crypto-nested
-```
-Install NPM packages
+### Analyzing the Bundle Size
 
-```sh
-  npm install
-```
-Navigate to the project directory:
-```sh
- cd crypto-nested
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Start the project
-```sh
- npm run start
-```
-Build for production
-```sh
- npm run build
-```
+### Making a Progressive Web App
 
-You can now make changes to the project as desired and push them back to the repository using Git.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-That's it! With these simple steps, you should be able to get up and running with the Book list project in no time. Happy coding!
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
+### Deployment
 
-### Usage
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-To use this project, simply visit the following link: https://github.com/evansnyamekye/crypto-nested
+### `npm run build` fails to minify
 
-- **Browse coin without logging in**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
-<!-- > Mention all of the collaborators of this project. -->
-
-👤 **Evans Kofi Nyamekye**
-
-- GitHub: [evansnyamekye](https://github.com/evansnyamekye)
-- Twitter: [@nyamekye2131](https://twitter.com/nyamekye2131)
-- LinkedIn: [Evans Kofi Nyamekye](https://www.linkedin.com/in/evans-kofi-nyamekye-1980a4117/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-<!-- > Describe 1 - 3 features you will add to the project. -->
-
-- [ ] **Additional pages: More pages will be added to the project to display additional content.**
-- [ ] **Responsive design: The project will be optimized to display properly on different screen sizes, including desktops, tablets, and mobile devices.**
-- [ ] **Add dark mode**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-## 🤝 Contributing <a name="contributing"></a>
-
-If you'd like to contribute to this project, feel free to fork the repository and make changes as you see fit. Please submit a pull request with your changes and I'll review them as soon as possible.
-
-Feel free to check the [issues page](../../issues/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-> I am excited to share with you my latest react project on Github. As you know, Github is an essential tool for developers to showcase their skills, collaborate with others, and contribute to open-source projects. By supporting my project, you can help me improve my Github workflow skills and learn how to set up HTML & CSS linters.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-- I would like thank Microverse Review Team and especially Abel Gebeyehu for professional review feedback My Coding Partners, wish I could mention your names. cheers!! to you all. I, Evans, and my Family.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-  
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
