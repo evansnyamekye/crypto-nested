@@ -50,7 +50,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 <a href="https://crypto-nested-git-features-evansnyamekye.vercel.app/">Live Demo🚀</a><br>
-<a href="https://crypto-nested-git-features-evansnyamekye.vercel.app/">Video Presentation🚀</a>
+<a href="https://www.loom.com/share/7aef673f1d6a41ca9b15b42c52b96283?sid=e85fa408-9084-447f-9432-b5ddaaa20fe3">Video Presentation🚀</a>
 
 <!-- GETTING STARTED -->
 
