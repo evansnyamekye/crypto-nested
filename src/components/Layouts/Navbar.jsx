@@ -1,8 +1,6 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Link, useLocation } from 'react-router-dom';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types';
 import {
   SunIcon, Bars3Icon, XMarkIcon, ArrowLeftIcon, Cog8ToothIcon,
