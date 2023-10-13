@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import { useEffect, useState } from 'react';
 import millify from 'millify';
 import { Link } from 'react-router-dom';
