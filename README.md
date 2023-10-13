@@ -49,7 +49,7 @@
 <!-- Live Demo -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-<a href="#"> Not Yet</a>
+<a href="https://crypto-nested-git-features-evansnyamekye.vercel.app/">Live🚀</a>
 
 <!-- GETTING STARTED -->
 
