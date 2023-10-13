@@ -46,7 +46,7 @@ function Navbar({ dark }) {
         </div>
         <div className="flex">
           <Link to="/">
-            <span className="uppercase font-bold">Cryptoniq</span>
+            <span className="uppercase font-bold">Crypto-Nested</span>
           </Link>
         </div>
         <div className="flex">
@@ -64,7 +64,7 @@ function Navbar({ dark }) {
         <Dialog.Panel className="fixed bottom-0 z-10 w-full md:w-6/12 mx-auto inset-x-0 bg-darkGray text-white p-6 py-10">
           <div className="flex items-center justify-between">
             <Link href="/" className="-m-1.5 p-1.5">
-              <span className="uppercase font-bold">Cryptoniq</span>
+              <span className="uppercase font-bold">Crypto-Nested</span>
             </Link>
             <button
               type="button"

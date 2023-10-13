@@ -1,5 +1,5 @@
-/* eslint-disable import/no-extraneous-dependencies */
 /** @type {import('tailwindcss').Config} */
+// eslint-disable-next-line import/no-extraneous-dependencies
 const daisyui = require('daisyui');
 
 module.exports = {
@@ -20,10 +20,22 @@ module.exports = {
     },
     extend: {
       colors: {
-        brightBlue: '#4369b2',
+        brightBlue: '#5283e0',
+        brightBluedDark: '#4063a5',
         brightBlueLight: '#3c62a3',
-        brightBlueSupLight: '#446ab1',
+        brightBlueSupLight: '#4369b2',
+        brightBlueSupDark: '#35548b',
         darkGray: '#1d1d1d',
+        newRed: '#ec4c8a',
+        newLightRed: '#ff5294',
+        newDarkRed: '#df4782',
+      },
+      backgroundColor: {
+        'coin-even': '#3c62a3',
+      },
+      fontFamily: {
+        robotoSlab: ['Roboto Slab', 'serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
       },
     },
   },
